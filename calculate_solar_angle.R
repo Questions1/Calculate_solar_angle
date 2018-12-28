@@ -2,7 +2,7 @@
 library(oce)  # 加载这个包用来计算太阳仰角以及离太阳的距离
 library(plyr)
 
-setwd('C:/Users/wn006/Desktop/开放数据-光伏功率-国能日新（新）/data')
+setwd('C:/Users/wn006/Desktop/开放数据-光伏功率-国能日新（新）/国能日新_光伏功率预测大赛数据')
 
 train_1 = read.csv("train_1.csv", fileEncoding = 'UTF-8')
 train_2 = read.csv("train_2.csv", fileEncoding = 'UTF-8')
